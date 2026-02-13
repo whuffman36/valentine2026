@@ -22,22 +22,6 @@ import Page18 from './Page18';
 import Page19 from './Page19';
 import TableOfContents from './TableOfContents';
 
-/*
- * 1 - ponchos, chivas game
- * 2 - Yale sweater, outdrinking with friends
- * 3 - palacio de bellas artes
- * 4 - chapultepec photoshoot
- * 5 - mirror pic in coyoacan
- * 6 - aquarium (several)
- * 7 - xochimilco (several)
- * 8 - halloween (several)
- * 9 - spicy matcha
- * 10 - her favorite photo of me (???)
- * 11 - birthday! (check whatsapp)
- * 12 - elevator mirror pic
- * 13 - japan jersey pic
- * 14 - new years photoshoot (several)
- */
 
 function App() {
   return (
