@@ -1,35 +1,34 @@
 import './App.css';
 import { Link } from 'react-router-dom';
 
-export default function Page4() {
+export default function Page16() {
   document.body.scrollTop = document.documentElement.scrollTop = 0;
   return (
     <div className="page">
-      <h1>Photoshoot en Chapultepec</h1>
+      <h1>Hasta Se Unió Lessy...</h1>
       <div className="image-row">
         <div className="image_col">
-          <img src="img/chapul_kiss_1.jpeg" alt="kissing in chapultepec"></img>
+          <img src="img/shooting_lessy.jpg" alt="taking a picture of lessy"></img>
         </div>
         <div className="image_col">
-          <img src="img/chapul_kiss_2.jpeg" alt="kissing in chapultepec"></img>
+          <img src="img/loca_lessy.jpg" alt="lessy powering up"></img>
+        </div>
+        <div className="image_col">
+          <img src="img/happy_family.jpeg" alt="us with lessy"></img>
         </div>
       </div>
       <br></br>
       <div className="page-text">
-        Fuimos a Chapultepec y me enseñaste a tomar fotos con tu cámara.
-        <br></br>
-        Aunque no te gustaron las fotos que te tomé, yo pensé que te veías increible ese día.
-        <br></br>
-        Ojalá pudieras verte con mis ojos 😍
+        La verdadera estrella ese día fue Lessy, y nos enseñó qué significa ser modelo
       </div>
       <br></br>
       <div className="arrow-buttons">
-        <Link to="/page3">
+        <Link to="/page15">
           <button className="arrow-button">
             <img src="img/left-arrow.png" alt="left arrow" width="100px"></img>
           </button>
         </Link>
-        <Link to="/page5">
+        <Link to="/page17">
           <button className="arrow-button">
             <img src="img/right-arrow.png" alt="right arrow" width="100px"></img>
           </button>

@@ -2,9 +2,10 @@ import './App.css';
 import { Link } from 'react-router-dom';
 
 export default function Page1() {
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
   return (
     <div className="page">
-      <h1>Besos bajo la lluvia</h1>
+      <h1>Besos Bajo La Lluvia</h1>
       <img className="page-img" src="img/ponchos.jpeg" alt="us in ponchos (check whatsapp)"></img>
       <br></br>
       <div className="page-text">
@@ -27,6 +28,12 @@ export default function Page1() {
           </button>
         </Link>
       </div>
+      <br></br>
+      <br></br>
+      <Link to="/table-of-contents">
+        <button className="generic-button">Tabla de Contenidos</button>
+      </Link>
+      <br></br>
     </div>
   );
 }

@@ -2,13 +2,16 @@ import './App.css';
 import { Link } from 'react-router-dom';
 
 export default function Page8() {
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
   return (
     <div className="page">
-      <h1>Pensaste que olvidé esta?</h1>
+      <h1>Pensaste Que Olvidé Esta?</h1>
       <img className="page-img" src="img/aquarium_surf.jpeg" alt="surfing in the aquarium"></img>
       <br></br>
       <div className="page-text">
-        
+        JAJA jamás olvidaré esta foto, aprendimos a surfear ese día 🏄‍♂️
+        <br></br>
+        Está bien amor puedes relajarte, no es real 🤣
       </div>
       <br></br>
       <div className="arrow-buttons">
@@ -23,6 +26,12 @@ export default function Page8() {
           </button>
         </Link>
       </div>
+      <br></br>
+      <br></br>
+      <Link to="/table-of-contents">
+        <button className="generic-button">Tabla de Contenidos</button>
+      </Link>
+      <br></br>
     </div>
   );
 }

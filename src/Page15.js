@@ -1,35 +1,41 @@
 import './App.css';
 import { Link } from 'react-router-dom';
 
-export default function Page4() {
+export default function Page15() {
   document.body.scrollTop = document.documentElement.scrollTop = 0;
   return (
     <div className="page">
-      <h1>Photoshoot en Chapultepec</h1>
+      <h1>Photoshoot del Año Nuevo</h1>
       <div className="image-row">
         <div className="image_col">
-          <img src="img/chapul_kiss_1.jpeg" alt="kissing in chapultepec"></img>
+          <img src="img/photoception.jpg" alt="picture of us taking a picture"></img>
         </div>
         <div className="image_col">
-          <img src="img/chapul_kiss_2.jpeg" alt="kissing in chapultepec"></img>
+          <img src="img/looking_at_camera.jpg" alt="us looking at the camera"></img>
+        </div>
+        <div className="image_col">
+          <img src="img/locos.jpg" alt="us making funny faces"></img>
+        </div>
+        <div className="image_col">
+          <img src="img/new_years_kiss.jpeg" alt="us kissing with heart"></img>
         </div>
       </div>
       <br></br>
       <div className="page-text">
-        Fuimos a Chapultepec y me enseñaste a tomar fotos con tu cámara.
+        Fuimos de vacaciones juntos para el año nuevo, y hicimos un photoshoot con tu cámara.
         <br></br>
-        Aunque no te gustaron las fotos que te tomé, yo pensé que te veías increible ese día.
+        Tuvimos que esconder de tu papá pero valió la pena 😘
         <br></br>
-        Ojalá pudieras verte con mis ojos 😍
+        Qué modelos somos 📸
       </div>
       <br></br>
       <div className="arrow-buttons">
-        <Link to="/page3">
+        <Link to="/page14">
           <button className="arrow-button">
             <img src="img/left-arrow.png" alt="left arrow" width="100px"></img>
           </button>
         </Link>
-        <Link to="/page5">
+        <Link to="/page16">
           <button className="arrow-button">
             <img src="img/right-arrow.png" alt="right arrow" width="100px"></img>
           </button>

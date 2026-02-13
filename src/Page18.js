@@ -1,35 +1,32 @@
 import './App.css';
 import { Link } from 'react-router-dom';
 
-export default function Page4() {
+export default function Page18() {
   document.body.scrollTop = document.documentElement.scrollTop = 0;
   return (
     <div className="page">
-      <h1>Photoshoot en Chapultepec</h1>
-      <div className="image-row">
-        <div className="image_col">
-          <img src="img/chapul_kiss_1.jpeg" alt="kissing in chapultepec"></img>
-        </div>
-        <div className="image_col">
-          <img src="img/chapul_kiss_2.jpeg" alt="kissing in chapultepec"></img>
-        </div>
-      </div>
+      <h1>Empezando el Año Nuevo con Estilo</h1>
+      <img className="page-img" src="img/new_year_mirror.jpg" alt="us in the mirror on nye"></img>
       <br></br>
       <div className="page-text">
-        Fuimos a Chapultepec y me enseñaste a tomar fotos con tu cámara.
+        Nos pusimos elegantes para la última cena de 2025.
         <br></br>
-        Aunque no te gustaron las fotos que te tomé, yo pensé que te veías increible ese día.
+        Por dios, te veías divina esa noche 😍
         <br></br>
-        Ojalá pudieras verte con mis ojos 😍
+        Me sentía como el hombre más afortunado del mundo por tenerte
+        <br></br>
+        (y todavía me siento así, duh)
+        <br></br>
+        Celebramos el año nuevo juntos, y me enseñaste todos los costumbres mexicanos 🇲🇽
       </div>
       <br></br>
       <div className="arrow-buttons">
-        <Link to="/page3">
+        <Link to="/page17">
           <button className="arrow-button">
             <img src="img/left-arrow.png" alt="left arrow" width="100px"></img>
           </button>
         </Link>
-        <Link to="/page5">
+        <Link to="/page19">
           <button className="arrow-button">
             <img src="img/right-arrow.png" alt="right arrow" width="100px"></img>
           </button>

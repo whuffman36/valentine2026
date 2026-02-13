@@ -9,7 +9,7 @@ export default function WrongAnswer() {
       Tienes dudas o qué?
       <br></br>
       <Link to="/">
-        <button>
+        <button className='generic-button'>
           Intentalo de nuevo
         </button>
       </Link>

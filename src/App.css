@@ -1,3 +1,11 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: auto;
+}
+
 .Home {
   text-align: center;
 }
@@ -11,6 +19,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: purple;
+  font-family: cursive;
 }
 
 .Home img {
@@ -19,20 +28,40 @@
 
 .text-emoji {
   display: flex;
-  gap: 100px;
+  gap: 50px;
   justify-content: center;
 }
 
 .photo-emoji {
   display: flex;
-  gap: 100px;
+  gap: 50px;
   justify-content: center;
+  overflow: hidden;
+  height: 300px;
+  width: fit-content;
+}
+
+.photo-emoji img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .button-container {
   display: flex;
   gap: 10px;
   justify-content: center;
+}
+
+.Home button {
+  background-color: purple;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
 }
 
 .page {
@@ -45,10 +74,21 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: purple;
+  font-family: cursive;
 }
 
 .page-img {
   height: 300px;
+}
+
+.generic-button {
+  background-color: purple;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
 }
 
 .arrow-buttons {
@@ -73,12 +113,12 @@
 
 .image-row {
   display: flex;
+  flex-direction: column;
   gap: 30px;
   justify-content: center;
 }
 
 .image_col {
-  float: left;
   overflow: hidden;
   height: 300px;
   width: 100%;

@@ -2,6 +2,7 @@ import './App.css';
 import { Link } from 'react-router-dom';
 
 export default function Page6() {
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
   return (
     <div className="page">
       <h1>Cita de Acuario</h1>
@@ -15,7 +16,11 @@ export default function Page6() {
       </div>
       <br></br>
       <div className="page-text">
-        
+        Fuimos al acuario juntos, despues de comer el peor mango del mundo 🤮
+        <br></br>
+        Estabamos tan enamorados, tomando fotos cada rato en cada exhibición.
+        <br></br>
+        Estás con un piscis, obvio te voy a llevar a un acuario 🐟
       </div>
       <br></br>
       <div className="arrow-buttons">
@@ -30,6 +35,12 @@ export default function Page6() {
           </button>
         </Link>
       </div>
+      <br></br>
+      <br></br>
+      <Link to="/table-of-contents">
+        <button className="generic-button">Tabla de Contenidos</button>
+      </Link>
+      <br></br>
     </div>
   );
 }

@@ -13,6 +13,14 @@ import Page9 from './Page9';
 import Page10 from './Page10';
 import Page11 from './Page11';
 import Page12 from './Page12';
+import Page13 from './Page13';
+import Page14 from './Page14';
+import Page15 from './Page15';
+import Page16 from './Page16';
+import Page17 from './Page17';
+import Page18 from './Page18';
+import Page19 from './Page19';
+import TableOfContents from './TableOfContents';
 
 /*
  * 1 - ponchos, chivas game
@@ -49,6 +57,14 @@ function App() {
         <Route path="/page10" element={<Page10 />} />
         <Route path="/page11" element={<Page11 />} />
         <Route path="/page12" element={<Page12 />} />
+        <Route path="/page13" element={<Page13 />} />
+        <Route path="/page14" element={<Page14 />} />
+        <Route path="/page15" element={<Page15 />} />
+        <Route path="/page16" element={<Page16 />} />
+        <Route path="/page17" element={<Page17 />} />
+        <Route path="/page18" element={<Page18 />} />
+        <Route path="/page19" element={<Page19 />} />
+        <Route path="/table-of-contents" element={<TableOfContents />} />
       </Routes>
     </HashRouter>
   );
