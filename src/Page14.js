@@ -6,7 +6,7 @@ export default function Page14() {
   return (
     <div className="page">
       <h1>Amor a Larga Distancia</h1>
-      <img className="page-img" src="img/japan_jersey.jpg" alt="Me in a japan jersey"></img>
+      <img className="page-img" src="img/japan_jersey.png" alt="Me in a japan jersey"></img>
       <br></br>
       <div className="page-text">
         Aunque estaba en el otro lado del planeta,

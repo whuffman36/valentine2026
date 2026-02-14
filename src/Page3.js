@@ -11,7 +11,7 @@ export default function Page3() {
           <img src="img/bellas_artes_smiles.jpeg" alt="us at palacio de bellas artes"></img>
         </div>
         <div className="image_col">
-          <img src="img/bellas_artes_kiss.jpeg" alt="us at palacio de bellas artes"></img>
+          <img src="img/bellas_artes_kiss.png" alt="us at palacio de bellas artes"></img>
         </div>
       </div>
       <br></br>

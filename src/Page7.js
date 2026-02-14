@@ -6,7 +6,7 @@ export default function Page7() {
   return (
     <div className="page">
       <h1>Mi Pingüino Salvage</h1>
-      <img className="page-img" src="img/carla_with_penguin.jpg" alt="carla with penguin"></img>
+      <img className="page-img" src="img/carla_with_penguin.png" alt="carla with penguin"></img>
       <br></br>
       <div className="page-text">
         Aunque tengas el tamaño de un pingüino, te quiero igaul ❤️

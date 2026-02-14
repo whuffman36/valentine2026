@@ -6,7 +6,7 @@ export default function Page19() {
   return (
     <div className="page">
       <h1>Ahogado en Amor</h1>
-      <img className="page-img" src="img/face_kisses.jpg" alt="face kisses"></img>
+      <img className="page-img" src="img/face_kisses.png" alt="face kisses"></img>
       <br></br>
       <div className="page-text">
         Me pintaste con tu amor para que todos lo vean 😍

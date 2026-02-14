@@ -8,10 +8,10 @@ export default function Page16() {
       <h1>Hasta Se Unió Lessy...</h1>
       <div className="image-row">
         <div className="image_col">
-          <img src="img/shooting_lessy.jpg" alt="taking a picture of lessy"></img>
+          <img src="img/shooting_lessy.png" alt="taking a picture of lessy"></img>
         </div>
         <div className="image_col">
-          <img src="img/loca_lessy.jpg" alt="lessy powering up"></img>
+          <img src="img/loca_lessy.png" alt="lessy powering up"></img>
         </div>
         <div className="image_col">
           <img src="img/happy_family.jpeg" alt="us with lessy"></img>

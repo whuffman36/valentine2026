@@ -6,7 +6,7 @@ export default function Page18() {
   return (
     <div className="page">
       <h1>Empezando el Año Nuevo con Estilo</h1>
-      <img className="page-img" src="img/new_year_mirror.jpg" alt="us in the mirror on nye"></img>
+      <img className="page-img" src="img/new_year_mirror.png" alt="us in the mirror on nye"></img>
       <br></br>
       <div className="page-text">
         Nos pusimos elegantes para la última cena de 2025.

@@ -8,10 +8,10 @@ export default function Page9() {
       <h1>Xochimilco</h1>
       <div className="image-row">
         <div className="image_col">
-          <img src="img/carla_holds_snake.jpg" alt="carla holding a snake"></img>
+          <img src="img/carla_holds_snake.png" alt="carla holding a snake"></img>
         </div>
         <div className="image_col">
-          <img src="img/xochimilco_smiles.jpg" alt="carla smiling in xochimilco"></img>
+          <img src="img/xochimilco_smiles.png" alt="carla smiling in xochimilco"></img>
         </div>
       </div>
       <br></br>

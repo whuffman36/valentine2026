@@ -8,10 +8,10 @@ export default function Page6() {
       <h1>Cita de Acuario</h1>
       <div className="image-row">
         <div className="image_col">
-          <img src="img/aquarium_cuddle.jpg" alt="cuddling in aquarium"></img>
+          <img src="img/aquarium_cuddle.png" alt="cuddling in aquarium"></img>
         </div>
         <div className="image_col">
-          <img src="img/aquarium_kiss.jpg" alt="kissing in aquarium"></img>
+          <img src="img/aquarium_kiss.png" alt="kissing in aquarium"></img>
         </div>
       </div>
       <br></br>

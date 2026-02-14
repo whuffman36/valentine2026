@@ -8,10 +8,10 @@ export default function Page12() {
       <h1>Feliz Cumpleaños!</h1>
       <div className="image-row">
         <div className="image_col">
-          <img src="img/birthday_smiles.jpg" alt="carla happy on her birthday"></img>
+          <img src="img/birthday_smiles.png" alt="carla happy on her birthday"></img>
         </div>
         <div className="image_col">
-          <img src="img/carla_confronts_pasta.jpg" alt="carla confronts pasta"></img>
+          <img src="img/carla_confronts_pasta.png" alt="carla confronts pasta"></img>
         </div>
         <div className="image_col">
           <img src="img/cake.jpeg" alt="birthday cake!"></img>

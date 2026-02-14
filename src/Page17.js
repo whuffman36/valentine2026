@@ -11,7 +11,7 @@ export default function Page17() {
           <img src="img/new_years_glasses.jpeg" alt="new years glasses"></img>
         </div>
         <div className="image_col">
-          <img src="img/new_years_tongue.jpg" alt="new years tongue"></img>
+          <img src="img/new_years_tongue.png" alt="new years tongue"></img>
         </div>
       </div>
       <br></br>

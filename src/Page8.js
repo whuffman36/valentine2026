@@ -6,7 +6,7 @@ export default function Page8() {
   return (
     <div className="page">
       <h1>Pensaste Que Olvidé Esta?</h1>
-      <img className="page-img" src="img/aquarium_surf.jpeg" alt="surfing in the aquarium"></img>
+      <img className="page-img" src="img/aquarium_surf.png" alt="surfing in the aquarium"></img>
       <br></br>
       <div className="page-text">
         JAJA jamás olvidaré esta foto, aprendimos a surfear ese día 🏄‍♂️

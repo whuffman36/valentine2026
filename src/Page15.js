@@ -8,13 +8,13 @@ export default function Page15() {
       <h1>Photoshoot del Año Nuevo</h1>
       <div className="image-row">
         <div className="image_col">
-          <img src="img/photoception.jpg" alt="picture of us taking a picture"></img>
+          <img src="img/photoception.png" alt="picture of us taking a picture"></img>
         </div>
         <div className="image_col">
-          <img src="img/looking_at_camera.jpg" alt="us looking at the camera"></img>
+          <img src="img/looking_at_camera.png" alt="us looking at the camera"></img>
         </div>
         <div className="image_col">
-          <img src="img/locos.jpg" alt="us making funny faces"></img>
+          <img src="img/locos.png" alt="us making funny faces"></img>
         </div>
         <div className="image_col">
           <img src="img/new_years_kiss.jpeg" alt="us kissing with heart"></img>

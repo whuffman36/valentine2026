@@ -6,7 +6,7 @@ export default function Page11() {
   return (
     <div className="page">
       <h1>Matcha Picante</h1>
-      <img className="page-img" src="img/spicy_matcha.jpg" alt="carla drinking matcha"></img>
+      <img className="page-img" src="img/spicy_matcha.png" alt="carla drinking matcha"></img>
       <br></br>
       <div className="page-text">
         Fuimos por matcha y pudding, y por alguna razón tu matcha estuvo...picante? 🤔

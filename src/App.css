@@ -17,6 +17,7 @@ html,body {
   font-size: calc(10px + 2vmin);
   color: purple;
   font-family: cursive;
+  font-weight: bold;
 }
 
 .Home img {
@@ -72,6 +73,7 @@ html,body {
   font-size: calc(10px + 2vmin);
   color: purple;
   font-family: cursive;
+  font-weight: bold;
 }
 
 .page-img {
